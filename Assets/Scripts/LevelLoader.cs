@@ -27,7 +27,7 @@ namespace UI
             }
             else
             {
-                instance = new LevelLoader();
+                instance = this;
                 DontDestroyOnLoad(this);
             }
         }
